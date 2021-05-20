@@ -1,0 +1,62 @@
+
+<main>
+  <% if @data.present? %>
+  <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <h1 class="display-6"><%= @data["name"] %></h1>
+
+      <table class="">
+
+          <tr>
+            <td>
+              <%= image_tag "#{@data['images']["header"]}" %>
+            </td>
+            <td>
+              <p class="lead text-muted">
+                <%= @data["description"] %>
+              </p>
+            </td>
+            <td style="width: 300px">
+              <%= @data["prices"]["price_min"]["amount"] %> -
+              <%= @data["prices"]["price_max"]["amount"] %>
+              <%= @data["prices"]["price_min"]["currency"] || @data["prices"]["price_max"]["currency"] %>
+            </td>
+          </tr>
+      </table>
+    </div>
+  </section>
+  <% end %>
+
+  <% if @data_positions.present? %>
+  <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <h2 class="display-6">Цены по магазинам</h2>
+
+      <% if @data_positions  %>
+        <table class="table text-start">
+          <thead class="table-dark">
+          <tr style="vertical-align: middle;">
+            <th scope="col"><span class="">Название магазина</span></th>
+            <th scope="col" style="width: 300px"><span class="align-middle">цена</span></th>
+          </tr>
+          </thead>
+          <tbody>
+          <% @data_positions["positions"]["primary"].each do |product| %>
+            <tr>
+              <td>
+                <%= @data_positions["shops"]["#{product["shop_id"]}"]["title"] %>
+              </td>
+              <td>
+                <%= product["position_price"]["amount"] %> <%= product["position_price"]["currency"] %>
+              </td>
+            </tr>
+          <% end %>
+          </tbody>
+        </table>
+      <% else %>
+        <p>Цены в магазинах не найдены</p>
+      <% end %>
+    </div>
+  </section>
+  <% end %>
+</main>

@@ -1,0 +1,120 @@
+
+<main>
+  <section class="text-center container">
+    <div class="row">
+
+      <h1 style="padding: 50px 0">Мои отслеживаемые товары</h1>
+
+
+      <div class="price_window"></div>
+      <table class="table">
+        <thead class="table-dark">
+        <tr align="align-middle" style="vertical-align: middle">
+          <th scope="col"><span class="align-middle">удалить</span></th>
+          <th scope="col"><span class="align-middle">фото товара</span></th>
+          <th scope="col"><span class="align-middle">описание</span></th>
+          <th scope="col"><span class="align-middle" style="width: 300px">цена</span></th>
+        </tr>
+        </thead>
+        <tbody>
+        <% @products.each do |product| %>
+          <tr>
+            <td style="vertical-align: middle">
+
+              <div class="icon remove_fav" data-id="<%= product[:key] %>">
+                <i class="icon-size fas fa-trash"></i>
+              </div>
+            </td>
+            <td style="vertical-align: middle">
+              <%= image_tag "#{product[:images][:header]}" %>
+            </td>
+            <td class="flex-grow-1 flex-row">
+              <div class="text-start p-2 text-left">
+                <p>
+                  <%= link_to product[:name], "/goods/#{product[:key]}" %>
+                </p>
+                <p class="lead text-muted">
+                  <%= product[:description] %>
+                </p>
+                <div class="checkobox_groups">
+                  <div>
+                    <%= check_box_tag 'show_chart', product[:key], false, class: 'form-check-input show_chart'  %> показать график изменения цен
+                  </div>
+                  <div>
+                    <%= check_box_tag "notify[#{product[:key]}]",
+                                      product[:favorite_id],
+                                      product[:favorite_checked],
+                                      class: 'form-check-input notifyme'
+                    %> уведомить при изменении цены
+                  </div>
+                </div>
+
+              </div>
+            </td>
+            <td style="vertical-align: middle" width="300px">
+              <div>
+                <%= "#{product[:prices][:price_min][:amount]} #{product[:prices][:price_min][:currency]}" if product.dig(:prices,:price_min )%>
+                - <%= "#{product[:prices][:price_max][:amount]} #{product[:prices][:price_max][:currency]}"  if product.dig(:prices,:price_max )%>
+              </div>
+              <div class="font-weight-bold price_<%= product[:key] %>"></div>
+
+            </td>
+          </tr>
+          <tr  class="chart_<%= product[:key] %>" style="display: none">
+            <td colspan="4">
+              <%= line_chart(product[:history_price]) %>
+            </td>
+          </tr>
+        <% end %>
+        </tbody>
+      </table>
+
+    </div>
+  </section>
+</main>
+
+<script>
+  $(document).ready(function() {
+
+    $('.show_chart').click(function() {
+
+        const key =  $(this).attr("value");
+        $(".chart_"+key).show()
+        if(!$(this).is(':checked')) {
+            $(".chart_"+key).hide();
+        } else {
+            $(".chart_"+key).show();
+        }
+    })
+
+    $('.remove_fav').click(function() {
+      const key = $(this).attr("data-id");
+      if(key) {
+        $.ajax({
+          type: "DELETE",
+          url: '/favorites/delete_by_favorite/' + key,
+          contentType: "application/json",
+        }).done(function() {
+          window.location.href = '/favorites/goods';
+        });
+      }
+    });
+
+      $('.notifyme').click(function() {
+          const key =  $(this).attr("value");
+
+          $.ajax({
+              type: "PATCH",
+              url: '/favorites/'+key,
+              contentType: "application/json",
+              data: JSON.stringify({is_notify: $(this).is(':checked')})
+          }).done(function() {});
+      });
+
+      $.ajax({
+          type: "GET",
+          url: '/favorites/get_data',
+          contentType: "application/json"
+      })
+  });
+</script>

@@ -1,0 +1,114 @@
+
+
+<main>
+  <section class="text-center container">
+    <div class="container mt-5">
+      <%= form_tag '/', method: :get, :class => ''  do %>
+        <div class="mb-3 input-group">
+          <label for="goodsSearch" class="col-sm-2 col-form-label text-end px-2">Поиск:</label>
+          <%= text_field_tag(:query, params[:query], :class => 'form-control') %>
+          <%= submit_tag('Найти', :class => 'btn btn-primary mx-2 col-sm-2') %>
+        </div>
+      <% end %>
+    </div>
+
+
+    <div class="container">
+      <% if params[:query].present? %>
+        <h1>Результат  поиска: "<%= params[:query] %>"</h1>
+
+
+
+        <% if @data.present? && @data.data.present?  %>
+        <div class="found_goods">
+          <div class="d-flex flex-row-reverse mt-5">
+            <%= paginate @data %>
+          </div>
+
+          <table class="table">
+            <thead class="table-dark head-center">
+            <tr align="align-middle" style="vertical-align: middle">
+              <th scope="col">добавить в отслеживаемые</th>
+              <th scope="col">фото товара</th>
+              <th scope="col">описание</th>
+              <th scope="col">цена</th>
+            </tr>
+            </thead>
+            <tbody>
+            <% @data.data.each do |product| %>
+              <tr>
+                <td style="vertical-align: middle">
+                  <%= check_box_tag "add_favorite[#{product["key"]}]",
+                                    product["key"],
+                                    product["favorite_id"].present?,
+                                    class: 'big-checkbox favorite',
+                                    data: { "favorite_id" => product["favorite_id"]},
+                                    disabled: !current_user
+                  %>
+                </td>
+                <td style="vertical-align: middle">
+                  <%= image_tag "#{product["images"]["header"]}" %>
+                </td>
+                <td class="flex-grow-1 flex-row">
+                  <div class="text-start p-2 text-left">
+                    <p>
+                      <%= link_to product["name"], "/goods/#{product["key"]}", class: "good_link" %>
+                    </p>
+                    <p class="lead text-muted">
+                      <%= product["description"] %>
+                    </p>
+                  </div>
+                </td>
+                <td style="vertical-align: middle" width="300px">
+                  <div>
+                  <%= "#{product["prices"]["price_min"]["amount"]} #{product["prices"]["price_min"]["currency"]}"  if product.dig("prices","price_min" )%> - <%= "#{product["prices"]["price_max"]["amount"]}  #{product["prices"]["price_max"]["currency"]}"  if product.dig("prices","price_max" )%>
+                  </div>
+                </td>
+              </tr>
+            <% end %>
+            </tbody>
+          </table>
+
+          <div class="d-flex flex-row-reverse">
+            <%= paginate @data %>
+          </div>
+        </div>
+        <% else %>
+          <p class="text-center mt-5">Список поиска пуст</p>
+        <% end %>
+
+
+      <% end %>
+    </div>
+  </section>
+</main>
+
+<script>
+  $(document).ready(function() {
+    $('.favorite').click(function() {
+        const key =  $(this).attr("value");
+
+        console.log('XXXX ', $(this).data("favorite-id"));
+
+        if(!$(this).is(':checked')) {
+            $.ajax({
+                type: "DELETE",
+                url: '/favorites/delete_by_favorite/'+key,
+                contentType: "application/json",
+                data: JSON.stringify({goods_key: key})
+            }).done(function( msg ) {
+
+            });
+        } else {
+          $.ajax({
+              type: "POST",
+              url: '/favorites',
+              contentType: "application/json",
+              data: JSON.stringify({goods_key: key})
+          }).done(function( msg ) {
+
+          });
+        }
+    });
+  });
+</script>

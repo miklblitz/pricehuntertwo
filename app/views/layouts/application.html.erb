@@ -1,15 +1,38 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Pricehuntertwo</title>
+    <title>Pricehunter</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
-    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container">
+        <div class="d-flex justify-content-between w-100">
+          <div><a href="/" style='color: #ffffff'>Отслеживание цен с сайта Onliner.by</a></div>
+          <div class="text-white">
+            <% if user_signed_in? %>
+              <%= link_to('Личный кабинет', goods_favorites_path) %> |
+              <%= link_to('Выход', destroy_user_session_path, method: :delete) %>
+            <% else %>
+              <%= link_to('Вход', new_user_session_path) %> |
+              <%= link_to('Регистрация', new_user_registration_path) %>
+            <% end %>
+          </div>
+        </div>
+      </div>
+    </nav>
+
     <%= yield %>
+
+    <div style="display: none">
+      <p class="notice"><%= notice %></p>
+      <p class="alert"><%= alert %></p>
+    </div>
+    <div id="user_id" style="display: none"><%= current_user.try(:id)  %></div>
   </body>
 </html>
