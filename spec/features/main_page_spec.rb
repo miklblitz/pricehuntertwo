@@ -74,8 +74,9 @@ feature 'Visit Main page' do
     expect(page).to have_checked_field('add_favorite_powermaxxbsbasic')
 
     # не отрабатывает ?
-    save_page
-
+    # save_page
+    # save_and_open_page
+    
     visit '/'
     fill_in "query", :with => 'бензопила'
     click_button "commit"
