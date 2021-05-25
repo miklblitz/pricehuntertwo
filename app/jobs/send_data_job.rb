@@ -14,18 +14,22 @@ class SendDataJob < ApplicationJob
         if response_positions["body"].is_a?(Hash)
           (minimal_price, maximum_price) = ::OnlinerLib.get_minimal_price(response_positions["body"]["positions"]["primary"])
 
+          new_price = favorite.new_price
+          currency = 'BYN'
+
           @goods << {
             id: favorite.goods_key,
-            price: (minimal_price.to_f < favorite.new_price || favorite.new_price == 0) ? minimal_price.to_f : nil,
-            currency: favorite.currency,
-            min_max: "#{minimal_price} #{favorite.currency}  - #{maximum_price} #{favorite.currency}"
+            price: (minimal_price.to_f < new_price || favorite.new_price == 0) ? minimal_price.to_f : nil,
+            currency: currency,
+            min_max: "#{minimal_price} #{currency}  - #{maximum_price} #{currency}"
           }
 
           favorite.update_attributes({
-                                       old_price: favorite.new_price,
-                                       new_price: minimal_price.to_f,
-                                       currency: 'BYN'
+                                         old_price: favorite.new_price,
+                                         new_price: minimal_price.to_f,
+                                         currency: currency
                                      })
+
         end
       end
 
