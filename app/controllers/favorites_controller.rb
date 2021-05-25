@@ -1,6 +1,6 @@
 class FavoritesController < ApplicationController
   before_action :authenticate_user!
-  before_action :set_favorite, only: %i[ update ]
+  before_action :set_favorite, only: %i[update]
 
   # GET /favorites or /favorites.json
   def goods
@@ -15,11 +15,10 @@ class FavoritesController < ApplicationController
         response["body"]["favorite_checked"] = favorite.is_notify
         response_prices = Onliner::ProxyApi.new.prices_history(favorite.goods_key)
         myhash = Hash.new
-        response_prices[:body]["chart_data"]["items"].map{|e| myhash[e["date"]] = e["price"]}
+        response_prices[:body]["chart_data"]["items"].map { |e| myhash[e["date"]] = e["price"] }
         response["body"]["history_price"] = myhash
         @goods << response["body"]
       end
-
     end
     @products = @goods ? @goods.map(&:deep_symbolize_keys) : []
   end
@@ -60,12 +59,10 @@ class FavoritesController < ApplicationController
 
   private
 
-  # Use callbacks to share common setup or constraints between actions.
   def set_favorite
     @favorite = Favorite.find_by(id: params[:id], user_id: current_user.id)
   end
 
-  # Only allow a list of trusted parameters through.
   def favorite_params
     params.require(:favorite).permit(:goods_key, :is_notify)
   end

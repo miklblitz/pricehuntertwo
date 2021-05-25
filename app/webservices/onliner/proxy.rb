@@ -15,28 +15,28 @@ module Onliner
     # /sdapi/catalog.api/search/schemas?query=my_query
     def catalog_search_schemas(query)
       response = get_request("/sdapi/catalog.api/search/schemas", query)
-      {body: response.body, status: response.status}.as_json
+      { body: response.body, status: response.status }.as_json
     end
 
     # список товаров по запросу query
     # /sdapi/catalog.api/search/products?query=my_query
     def catalog_search_products(query)
       response = get_request("/sdapi/catalog.api/search/products", query)
-      {body: response.body, status: response.status}.as_json
+      { body: response.body, status: response.status }.as_json
     end
 
     # конкретный товар
     # /sdapi/catalog.api/products/powermaxxbsbasic
     def product(key)
       response = get_request("/sdapi/catalog.api/products/#{key}")
-      {body: response.body, status: response.status}.as_json
+      { body: response.body, status: response.status }.as_json
     end
-
 
     # список цен для разных магазов
     # https://catalog.onliner.by/sdapi/shop.api/products/powermaxxbsbasic/positions?town=all {town: 'all'}
     def positions(key, query)
-      get_request("/sdapi/shop.api/products/#{key}/positions?", query)
+      response = get_request("/sdapi/shop.api/products/#{key}/positions?", query)
+      { body: response.body, status: response.status }.as_json
     end
 
     private
@@ -51,6 +51,5 @@ module Onliner
     rescue StandardError => e
       raise StandardError, e.message
     end
-
   end
 end

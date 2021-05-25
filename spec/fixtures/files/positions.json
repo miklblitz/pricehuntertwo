@@ -1,0 +1,1431 @@
+{
+  "positions": {
+    "primary": [
+      {
+        "id": "13840:157990001",
+        "product_id": 157990,
+        "article": "",
+        "manufacturer_id": 3693,
+        "shop_id": 13840,
+        "schema_id": 60,
+        "position_price": {
+          "amount": "520.00",
+          "currency": "BYN",
+          "converted": {
+            "BYN": {
+              "amount": "520.00",
+              "currency": "BYN"
+            }
+          }
+        },
+        "installment_prices": {
+          "halva_price": {
+            "amount": "520.00",
+            "currency": "BYN",
+            "term": 6,
+            "amount_per_month": "86.66"
+          }
+        },
+        "cobrand_info": "null",
+        "promotions": {
+          "is_active_mastercard_free_delivery": true
+        },
+        "is_credit": false,
+        "is_cashless": false,
+        "warranty": 36,
+        "product_life_time": "null",
+        "comment": "Специализированный магазин STIHL. Профессиональная консультация, обучение пользованию, послегарантийная поддержка. Широкий выбор техники, запчастей, аксессуаров для любителей и профессионалов. Наличный и безналичный расчёт, удобная рассрочка.",
+        "producer": "Andreas Stihl AG & Co. KG Germany, Waiblingen, Badstrasse 115 D-71336",
+        "importer": "ООО ?Пилакос?, г. Минск, ул. Тимирязева, д. 121, корп. 4, офис 6",
+        "service_centers": "Сервисный центр \"Stihl\", г. Минск, ул. Игнатенко, д. 2",
+        "date_update": "2021-05-24T10:20:16+03:00",
+        "delivery": {
+          "courier": "null",
+          "pickup_point": {
+            "min_price": {
+              "amount": "0.00",
+              "currency": "BYN"
+            },
+            "time": 1,
+            "online_payment": true,
+            "cashless_payment": false,
+            "halva_payment": true,
+            "items": [
+              {
+                "id": 436,
+                "payment_types": {
+                  "online": true,
+                  "cash": true,
+                  "terminal": true,
+                  "cashless": false,
+                  "halva": true
+                },
+                "coordinates": {
+                  "lat": 53.91159,
+                  "long": 27.505837
+                },
+                "price": {
+                  "amount": "0.00",
+                  "currency": "BYN"
+                },
+                "time": 1
+              }
+            ]
+          }
+        },
+        "cart_available": true,
+        "stock_status": {
+          "code": "in_stock",
+          "text": "На складе",
+          "comment": "Товар на складе в достаточном количестве",
+          "importers": []
+        },
+        "product_url": "https://catalog.api.onliner.by/products/ms180",
+        "shop_url": "https://shop.api.onliner.by/shops/13840",
+        "shop_full_info_url": "https://shop.api.onliner.by/shops/13840?include=full",
+        "schema_url": "https://catalog.api.onliner.by/schemas/chainsaw",
+        "od_status": {
+          "title": "Официальный дилер",
+          "description": "",
+          "icon": "https://content.onliner.by/od_status_icon/38/200x200/47f98eb8a303d3832f0cc13dbb37331b.png"
+        },
+        "price_order_priority": "null",
+        "is_highlight_promotion_winner": false
+      },
+      {
+        "id": "1794:150756241",
+        "product_id": 157990,
+        "article": "",
+        "manufacturer_id": 3693,
+        "shop_id": 1794,
+        "schema_id": 60,
+        "position_price": {
+          "amount": "520.00",
+          "currency": "BYN",
+          "converted": {
+            "BYN": {
+              "amount": "520.00",
+              "currency": "BYN"
+            }
+          }
+        },
+        "installment_prices": "null",
+        "cobrand_info": "null",
+        "promotions": {
+          "is_active_mastercard_free_delivery": false
+        },
+        "is_credit": false,
+        "is_cashless": false,
+        "warranty": 36,
+        "product_life_time": "null",
+        "comment": "Специализированный магазин STIHL. Широкий выбор техники, запчастей, аксессуаров. Подготовим инструмент к работе, произведем сборку и пробный запуск агрегата. Наличный и безналичный расчет, работаем с НДС. (Рассрочка и кредит) Возможен самовывоз.",
+        "producer": "Andreas Stihl AG & Co. KG, Badstr. 115, 71336 Waiblingen, Германия.",
+        "importer": "ООО \"ПИЛАКОС\" Почтовый адрес:\r\n220020, г. Минск, ул. Тимирязева 121/4, пом.6",
+        "service_centers": "СЦ магазина «Удачная техника»:  г.Минск, ул.Индустриальная 5, пом.1Н, вход с улицы Аранская, остановка транспорта – Минскэнерго. СЦ ООО \"ПИЛАКОС\",220053, Минская обл., Боровлянский с/с, здание 81/1, район д. Дроздово.",
+        "date_update": "2021-05-24T08:55:54+03:00",
+        "delivery": {
+          "courier": "null",
+          "pickup_point": {
+            "min_price": {
+              "amount": "0.00",
+              "currency": "BYN"
+            },
+            "time": 1,
+            "online_payment": false,
+            "cashless_payment": false,
+            "halva_payment": false,
+            "items": [
+              {
+                "id": 5179,
+                "payment_types": {
+                  "online": false,
+                  "cash": true,
+                  "terminal": true,
+                  "cashless": false,
+                  "halva": false
+                },
+                "coordinates": {
+                  "lat": 53.886697,
+                  "long": 27.573658
+                },
+                "price": {
+                  "amount": "0.00",
+                  "currency": "BYN"
+                },
+                "time": 1
+              }
+            ]
+          }
+        },
+        "cart_available": true,
+        "stock_status": "null",
+        "product_url": "https://catalog.api.onliner.by/products/ms180",
+        "shop_url": "https://shop.api.onliner.by/shops/1794",
+        "shop_full_info_url": "https://shop.api.onliner.by/shops/1794?include=full",
+        "schema_url": "https://catalog.api.onliner.by/schemas/chainsaw",
+        "od_status": {
+          "title": "Официальный дилер",
+          "description": "",
+          "icon": "https://content.onliner.by/od_status_icon/38/200x200/47f98eb8a303d3832f0cc13dbb37331b.png"
+        },
+        "price_order_priority": "null",
+        "is_highlight_promotion_winner": false
+      },
+      {
+        "id": "10418:157990001",
+        "product_id": 157990,
+        "article": "",
+        "manufacturer_id": 3693,
+        "shop_id": 10418,
+        "schema_id": 60,
+        "position_price": {
+          "amount": "520.00",
+          "currency": "BYN",
+          "converted": {
+            "BYN": {
+              "amount": "520.00",
+              "currency": "BYN"
+            }
+          }
+        },
+        "installment_prices": {
+          "halva_price": {
+            "amount": "520.00",
+            "currency": "BYN",
+            "term": 6,
+            "amount_per_month": "86.66"
+          }
+        },
+        "cobrand_info": "null",
+        "promotions": {
+          "is_active_mastercard_free_delivery": true
+        },
+        "is_credit": false,
+        "is_cashless": false,
+        "warranty": 36,
+        "product_life_time": "null",
+        "comment": "Специализированный магазин STIHL. Профессиональная консультация, обучение пользованию, послегарантийная поддержка. Широкий выбор техники, запчастей, аксессуаров для любителей и профессионалов. Наличный и безналичный расчёт, удобная рассрочка.",
+        "producer": "Andreas Stihl AG & Co. KG Germany, Waiblingen, Badstrasse 115 D-71336",
+        "importer": "ООО ?Пилакос?, г. Минск, ул. Тимирязева, д. 121, корп. 4, офис 6",
+        "service_centers": "Сервисный центр \"Stihl\", г. Минск, ул. Игнатенко, д. 2",
+        "date_update": "2021-05-24T10:27:27+03:00",
+        "delivery": {
+          "courier": "null",
+          "pickup_point": {
+            "min_price": {
+              "amount": "0.00",
+              "currency": "BYN"
+            },
+            "time": 1,
+            "online_payment": true,
+            "cashless_payment": false,
+            "halva_payment": true,
+            "items": [
+              {
+                "id": 983,
+                "payment_types": {
+                  "online": true,
+                  "cash": true,
+                  "terminal": true,
+                  "cashless": false,
+                  "halva": true
+                },
+                "coordinates": {
+                  "lat": 53.945812,
+                  "long": 27.611454
+                },
+                "price": {
+                  "amount": "0.00",
+                  "currency": "BYN"
+                },
+                "time": 1
+              }
+            ]
+          }
+        },
+        "cart_available": true,
+        "stock_status": {
+          "code": "in_stock",
+          "text": "На складе",
+          "comment": "Товар на складе в достаточном количестве",
+          "importers": []
+        },
+        "product_url": "https://catalog.api.onliner.by/products/ms180",
+        "shop_url": "https://shop.api.onliner.by/shops/10418",
+        "shop_full_info_url": "https://shop.api.onliner.by/shops/10418?include=full",
+        "schema_url": "https://catalog.api.onliner.by/schemas/chainsaw",
+        "od_status": {
+          "title": "Официальный дилер",
+          "description": "",
+          "icon": "https://content.onliner.by/od_status_icon/38/200x200/47f98eb8a303d3832f0cc13dbb37331b.png"
+        },
+        "price_order_priority": "null",
+        "is_highlight_promotion_winner": false
+      },
+      {
+        "id": "5722:13108",
+        "product_id": 157990,
+        "article": "",
+        "manufacturer_id": 3693,
+        "shop_id": 5722,
+        "schema_id": 60,
+        "position_price": {
+          "amount": "520.00",
+          "currency": "BYN",
+          "converted": {
+            "BYN": {
+              "amount": "520.00",
+              "currency": "BYN"
+            }
+          }
+        },
+        "installment_prices": {
+          "halva_price": {
+            "amount": "520.00",
+            "currency": "BYN",
+            "term": 6,
+            "amount_per_month": "86.66"
+          }
+        },
+        "cobrand_info": "null",
+        "promotions": {
+          "is_active_mastercard_free_delivery": true
+        },
+        "is_credit": false,
+        "is_cashless": false,
+        "warranty": 0,
+        "product_life_time": "null",
+        "comment": "Специализированный магазин и сервисный центр STIHL. Профессиональная консультация и техническая поддержка. Широкий выбор техники, запасных частей и аксессуаров. Удобный самовывоз. Наличный и безналичный расчет. Карты рассрочки. Работаем с НДС",
+        "producer": "Андреас Штиль АГ энд Ко. КГ, Германия, г. Вайблинген, Бадштрассе, 115 Д-71336",
+        "importer": "ООО \"ПИЛАКОС\", г. Минск, ул. Тимирязева, д. 121, корп. 4, офис 6",
+        "service_centers": "Сервисный центр \"Механизатор\", г. Минск, ул. Кальварийская, 25. Тел.: (017) 207-37-20",
+        "date_update": "2021-05-24T20:00:20+03:00",
+        "delivery": {
+          "courier": "null",
+          "pickup_point": {
+            "min_price": {
+              "amount": "0.00",
+              "currency": "BYN"
+            },
+            "time": 1,
+            "online_payment": true,
+            "cashless_payment": false,
+            "halva_payment": true,
+            "items": [
+              {
+                "id": 5094,
+                "payment_types": {
+                  "online": true,
+                  "cash": true,
+                  "terminal": true,
+                  "cashless": false,
+                  "halva": true
+                },
+                "coordinates": {
+                  "lat": 53.865227,
+                  "long": 27.524201
+                },
+                "price": {
+                  "amount": "0.00",
+                  "currency": "BYN"
+                },
+                "time": 1
+              },
+              {
+                "id": 5093,
+                "payment_types": {
+                  "online": true,
+                  "cash": true,
+                  "terminal": true,
+                  "cashless": false,
+                  "halva": true
+                },
+                "coordinates": {
+                  "lat": 53.871382,
+                  "long": 27.490369
+                },
+                "price": {
+                  "amount": "0.00",
+                  "currency": "BYN"
+                },
+                "time": 1
+              },
+              {
+                "id": 5092,
+                "payment_types": {
+                  "online": true,
+                  "cash": true,
+                  "terminal": true,
+                  "cashless": false,
+                  "halva": true
+                },
+                "coordinates": {
+                  "lat": 53.906318,
+                  "long": 27.520525
+                },
+                "price": {
+                  "amount": "0.00",
+                  "currency": "BYN"
+                },
+                "time": 1
+              }
+            ]
+          }
+        },
+        "cart_available": true,
+        "stock_status": {
+          "code": "in_stock",
+          "text": "На складе",
+          "comment": "Товар на складе в достаточном количестве",
+          "importers": []
+        },
+        "product_url": "https://catalog.api.onliner.by/products/ms180",
+        "shop_url": "https://shop.api.onliner.by/shops/5722",
+        "shop_full_info_url": "https://shop.api.onliner.by/shops/5722?include=full",
+        "schema_url": "https://catalog.api.onliner.by/schemas/chainsaw",
+        "od_status": {
+          "title": "Официальный дилер",
+          "description": "",
+          "icon": "https://content.onliner.by/od_status_icon/38/200x200/47f98eb8a303d3832f0cc13dbb37331b.png"
+        },
+        "price_order_priority": "null",
+        "is_highlight_promotion_winner": false
+      },
+      {
+        "id": "17174:157990001",
+        "product_id": 157990,
+        "article": "",
+        "manufacturer_id": 3693,
+        "shop_id": 17174,
+        "schema_id": 60,
+        "position_price": {
+          "amount": "520.00",
+          "currency": "BYN",
+          "converted": {
+            "BYN": {
+              "amount": "520.00",
+              "currency": "BYN"
+            }
+          }
+        },
+        "installment_prices": {
+          "halva_price": {
+            "amount": "520.00",
+            "currency": "BYN",
+            "term": 6,
+            "amount_per_month": "86.66"
+          }
+        },
+        "cobrand_info": "null",
+        "promotions": {
+          "is_active_mastercard_free_delivery": true
+        },
+        "is_credit": false,
+        "is_cashless": false,
+        "warranty": 36,
+        "product_life_time": "null",
+        "comment": "Специализированный магазин STIHL. Профессиональная консультация, обучение пользованию, послегарантийная поддержка. Широкий выбор техники, запчастей, аксессуаров для любителей и профессионалов. Наличный и безналичный расчёт, удобная рассрочка.",
+        "producer": "Andreas Stihl AG & Co. KG Germany, Waiblingen, Badstrasse 115 D-71336",
+        "importer": "ООО ?Пилакос?, г. Минск, ул. Тимирязева, д. 121, корп. 4, офис 6",
+        "service_centers": "Сервисный центр \"Stihl\", г. Минск, ул. Игнатенко, д. 2",
+        "date_update": "2021-05-22T10:09:22+03:00",
+        "delivery": {
+          "courier": "null",
+          "pickup_point": {
+            "min_price": {
+              "amount": "0.00",
+              "currency": "BYN"
+            },
+            "time": 1,
+            "online_payment": true,
+            "cashless_payment": false,
+            "halva_payment": true,
+            "items": [
+              {
+                "id": 575,
+                "payment_types": {
+                  "online": true,
+                  "cash": true,
+                  "terminal": true,
+                  "cashless": false,
+                  "halva": true
+                },
+                "coordinates": {
+                  "lat": 53.908326,
+                  "long": 27.426016
+                },
+                "price": {
+                  "amount": "0.00",
+                  "currency": "BYN"
+                },
+                "time": 1
+              }
+            ]
+          }
+        },
+        "cart_available": true,
+        "stock_status": "null",
+        "product_url": "https://catalog.api.onliner.by/products/ms180",
+        "shop_url": "https://shop.api.onliner.by/shops/17174",
+        "shop_full_info_url": "https://shop.api.onliner.by/shops/17174?include=full",
+        "schema_url": "https://catalog.api.onliner.by/schemas/chainsaw",
+        "od_status": {
+          "title": "Официальный дилер",
+          "description": "",
+          "icon": "https://content.onliner.by/od_status_icon/38/200x200/47f98eb8a303d3832f0cc13dbb37331b.png"
+        },
+        "price_order_priority": "null",
+        "is_highlight_promotion_winner": false
+      },
+      {
+        "id": "13722:157990001",
+        "product_id": 157990,
+        "article": "",
+        "manufacturer_id": 3693,
+        "shop_id": 13722,
+        "schema_id": 60,
+        "position_price": {
+          "amount": "520.00",
+          "currency": "BYN",
+          "converted": {
+            "BYN": {
+              "amount": "520.00",
+              "currency": "BYN"
+            }
+          }
+        },
+        "installment_prices": {
+          "halva_price": {
+            "amount": "520.00",
+            "currency": "BYN",
+            "term": 6,
+            "amount_per_month": "86.66"
+          }
+        },
+        "cobrand_info": "null",
+        "promotions": {
+          "is_active_mastercard_free_delivery": true
+        },
+        "is_credit": false,
+        "is_cashless": false,
+        "warranty": 36,
+        "product_life_time": "null",
+        "comment": "Специализированный магазин STIHL. Профессиональная консультация, обучение пользованию, послегарантийная поддержка. Широкий выбор техники, запчастей, аксессуаров для любителей и профессионалов. Наличный и безналичный расчёт, удобная рассрочка.",
+        "producer": "Andreas Stihl AG & Co. KG Germany, Waiblingen, Badstrasse 115 D-71336",
+        "importer": "ООО «Пилакос», г. Минск, ул. Тимирязева, д. 121, корп. 4, офис 124",
+        "service_centers": "Сервисный центр \"Stihl\", г. Минск, ул. Игнатенко, д. 2",
+        "date_update": "2021-05-21T11:52:51+03:00",
+        "delivery": {
+          "courier": "null",
+          "pickup_point": {
+            "min_price": {
+              "amount": "0.00",
+              "currency": "BYN"
+            },
+            "time": 1,
+            "online_payment": true,
+            "cashless_payment": false,
+            "halva_payment": true,
+            "items": [
+              {
+                "id": 55,
+                "payment_types": {
+                  "online": true,
+                  "cash": true,
+                  "terminal": true,
+                  "cashless": false,
+                  "halva": true
+                },
+                "coordinates": {
+                  "lat": 53.849536,
+                  "long": 27.477979
+                },
+                "price": {
+                  "amount": "0.00",
+                  "currency": "BYN"
+                },
+                "time": 1
+              }
+            ]
+          }
+        },
+        "cart_available": true,
+        "stock_status": "null",
+        "product_url": "https://catalog.api.onliner.by/products/ms180",
+        "shop_url": "https://shop.api.onliner.by/shops/13722",
+        "shop_full_info_url": "https://shop.api.onliner.by/shops/13722?include=full",
+        "schema_url": "https://catalog.api.onliner.by/schemas/chainsaw",
+        "od_status": {
+          "title": "Официальный дилер",
+          "description": "",
+          "icon": "https://content.onliner.by/od_status_icon/38/200x200/47f98eb8a303d3832f0cc13dbb37331b.png"
+        },
+        "price_order_priority": "null",
+        "is_highlight_promotion_winner": false
+      }
+    ],
+    "extra": [
+      {
+        "id": "1794:150756241",
+        "product_id": 157990,
+        "article": "",
+        "manufacturer_id": 3693,
+        "shop_id": 1794,
+        "schema_id": 60,
+        "position_price": {
+          "amount": "520.00",
+          "currency": "BYN",
+          "converted": {
+            "BYN": {
+              "amount": "520.00",
+              "currency": "BYN"
+            }
+          }
+        },
+        "installment_prices": "null",
+        "cobrand_info": "null",
+        "promotions": {
+          "is_active_mastercard_free_delivery": false
+        },
+        "is_credit": false,
+        "is_cashless": false,
+        "warranty": 36,
+        "product_life_time": "null",
+        "comment": "Специализированный магазин STIHL. Широкий выбор техники, запчастей, аксессуаров. Подготовим инструмент к работе, произведем сборку и пробный запуск агрегата. Наличный и безналичный расчет, работаем с НДС. (Рассрочка и кредит) Возможен самовывоз.",
+        "producer": "Andreas Stihl AG & Co. KG, Badstr. 115, 71336 Waiblingen, Германия.",
+        "importer": "ООО \"ПИЛАКОС\" Почтовый адрес:\r\n220020, г. Минск, ул. Тимирязева 121/4, пом.6",
+        "service_centers": "СЦ магазина «Удачная техника»:  г.Минск, ул.Индустриальная 5, пом.1Н, вход с улицы Аранская, остановка транспорта – Минскэнерго. СЦ ООО \"ПИЛАКОС\",220053, Минская обл., Боровлянский с/с, здание 81/1, район д. Дроздово.",
+        "date_update": "2021-05-24T08:55:54+03:00",
+        "delivery": {
+          "courier": "null",
+          "pickup_point": {
+            "min_price": {
+              "amount": "0.00",
+              "currency": "BYN"
+            },
+            "time": 1,
+            "online_payment": false,
+            "cashless_payment": false,
+            "halva_payment": false,
+            "items": [
+              {
+                "id": 5179,
+                "payment_types": {
+                  "online": false,
+                  "cash": true,
+                  "terminal": true,
+                  "cashless": false,
+                  "halva": false
+                },
+                "coordinates": {
+                  "lat": 53.886697,
+                  "long": 27.573658
+                },
+                "price": {
+                  "amount": "0.00",
+                  "currency": "BYN"
+                },
+                "time": 1
+              }
+            ]
+          }
+        },
+        "cart_available": true,
+        "stock_status": "null",
+        "product_url": "https://catalog.api.onliner.by/products/ms180",
+        "shop_url": "https://shop.api.onliner.by/shops/1794",
+        "shop_full_info_url": "https://shop.api.onliner.by/shops/1794?include=full",
+        "schema_url": "https://catalog.api.onliner.by/schemas/chainsaw",
+        "od_status": {
+          "title": "Официальный дилер",
+          "description": "",
+          "icon": "https://content.onliner.by/od_status_icon/38/200x200/47f98eb8a303d3832f0cc13dbb37331b.png"
+        },
+        "price_order_priority": "null",
+        "is_highlight_promotion_winner": false
+      },
+      {
+        "id": "5722:13108",
+        "product_id": 157990,
+        "article": "",
+        "manufacturer_id": 3693,
+        "shop_id": 5722,
+        "schema_id": 60,
+        "position_price": {
+          "amount": "520.00",
+          "currency": "BYN",
+          "converted": {
+            "BYN": {
+              "amount": "520.00",
+              "currency": "BYN"
+            }
+          }
+        },
+        "installment_prices": {
+          "halva_price": {
+            "amount": "520.00",
+            "currency": "BYN",
+            "term": 6,
+            "amount_per_month": "86.66"
+          }
+        },
+        "cobrand_info": "null",
+        "promotions": {
+          "is_active_mastercard_free_delivery": true
+        },
+        "is_credit": false,
+        "is_cashless": false,
+        "warranty": 0,
+        "product_life_time": "null",
+        "comment": "Специализированный магазин и сервисный центр STIHL. Профессиональная консультация и техническая поддержка. Широкий выбор техники, запасных частей и аксессуаров. Удобный самовывоз. Наличный и безналичный расчет. Карты рассрочки. Работаем с НДС",
+        "producer": "Андреас Штиль АГ энд Ко. КГ, Германия, г. Вайблинген, Бадштрассе, 115 Д-71336",
+        "importer": "ООО \"ПИЛАКОС\", г. Минск, ул. Тимирязева, д. 121, корп. 4, офис 6",
+        "service_centers": "Сервисный центр \"Механизатор\", г. Минск, ул. Кальварийская, 25. Тел.: (017) 207-37-20",
+        "date_update": "2021-05-24T20:00:20+03:00",
+        "delivery": {
+          "courier": "null",
+          "pickup_point": {
+            "min_price": {
+              "amount": "0.00",
+              "currency": "BYN"
+            },
+            "time": 1,
+            "online_payment": true,
+            "cashless_payment": false,
+            "halva_payment": true,
+            "items": [
+              {
+                "id": 5094,
+                "payment_types": {
+                  "online": true,
+                  "cash": true,
+                  "terminal": true,
+                  "cashless": false,
+                  "halva": true
+                },
+                "coordinates": {
+                  "lat": 53.865227,
+                  "long": 27.524201
+                },
+                "price": {
+                  "amount": "0.00",
+                  "currency": "BYN"
+                },
+                "time": 1
+              },
+              {
+                "id": 5093,
+                "payment_types": {
+                  "online": true,
+                  "cash": true,
+                  "terminal": true,
+                  "cashless": false,
+                  "halva": true
+                },
+                "coordinates": {
+                  "lat": 53.871382,
+                  "long": 27.490369
+                },
+                "price": {
+                  "amount": "0.00",
+                  "currency": "BYN"
+                },
+                "time": 1
+              },
+              {
+                "id": 5092,
+                "payment_types": {
+                  "online": true,
+                  "cash": true,
+                  "terminal": true,
+                  "cashless": false,
+                  "halva": true
+                },
+                "coordinates": {
+                  "lat": 53.906318,
+                  "long": 27.520525
+                },
+                "price": {
+                  "amount": "0.00",
+                  "currency": "BYN"
+                },
+                "time": 1
+              }
+            ]
+          }
+        },
+        "cart_available": true,
+        "stock_status": {
+          "code": "in_stock",
+          "text": "На складе",
+          "comment": "Товар на складе в достаточном количестве",
+          "importers": []
+        },
+        "product_url": "https://catalog.api.onliner.by/products/ms180",
+        "shop_url": "https://shop.api.onliner.by/shops/5722",
+        "shop_full_info_url": "https://shop.api.onliner.by/shops/5722?include=full",
+        "schema_url": "https://catalog.api.onliner.by/schemas/chainsaw",
+        "od_status": {
+          "title": "Официальный дилер",
+          "description": "",
+          "icon": "https://content.onliner.by/od_status_icon/38/200x200/47f98eb8a303d3832f0cc13dbb37331b.png"
+        },
+        "price_order_priority": "null",
+        "is_highlight_promotion_winner": false
+      },
+      {
+        "id": "10418:157990001",
+        "product_id": 157990,
+        "article": "",
+        "manufacturer_id": 3693,
+        "shop_id": 10418,
+        "schema_id": 60,
+        "position_price": {
+          "amount": "520.00",
+          "currency": "BYN",
+          "converted": {
+            "BYN": {
+              "amount": "520.00",
+              "currency": "BYN"
+            }
+          }
+        },
+        "installment_prices": {
+          "halva_price": {
+            "amount": "520.00",
+            "currency": "BYN",
+            "term": 6,
+            "amount_per_month": "86.66"
+          }
+        },
+        "cobrand_info": "null",
+        "promotions": {
+          "is_active_mastercard_free_delivery": true
+        },
+        "is_credit": false,
+        "is_cashless": false,
+        "warranty": 36,
+        "product_life_time": "null",
+        "comment": "Специализированный магазин STIHL. Профессиональная консультация, обучение пользованию, послегарантийная поддержка. Широкий выбор техники, запчастей, аксессуаров для любителей и профессионалов. Наличный и безналичный расчёт, удобная рассрочка.",
+        "producer": "Andreas Stihl AG & Co. KG Germany, Waiblingen, Badstrasse 115 D-71336",
+        "importer": "ООО ?Пилакос?, г. Минск, ул. Тимирязева, д. 121, корп. 4, офис 6",
+        "service_centers": "Сервисный центр \"Stihl\", г. Минск, ул. Игнатенко, д. 2",
+        "date_update": "2021-05-24T10:27:27+03:00",
+        "delivery": {
+          "courier": "null",
+          "pickup_point": {
+            "min_price": {
+              "amount": "0.00",
+              "currency": "BYN"
+            },
+            "time": 1,
+            "online_payment": true,
+            "cashless_payment": false,
+            "halva_payment": true,
+            "items": [
+              {
+                "id": 983,
+                "payment_types": {
+                  "online": true,
+                  "cash": true,
+                  "terminal": true,
+                  "cashless": false,
+                  "halva": true
+                },
+                "coordinates": {
+                  "lat": 53.945812,
+                  "long": 27.611454
+                },
+                "price": {
+                  "amount": "0.00",
+                  "currency": "BYN"
+                },
+                "time": 1
+              }
+            ]
+          }
+        },
+        "cart_available": true,
+        "stock_status": {
+          "code": "in_stock",
+          "text": "На складе",
+          "comment": "Товар на складе в достаточном количестве",
+          "importers": []
+        },
+        "product_url": "https://catalog.api.onliner.by/products/ms180",
+        "shop_url": "https://shop.api.onliner.by/shops/10418",
+        "shop_full_info_url": "https://shop.api.onliner.by/shops/10418?include=full",
+        "schema_url": "https://catalog.api.onliner.by/schemas/chainsaw",
+        "od_status": {
+          "title": "Официальный дилер",
+          "description": "",
+          "icon": "https://content.onliner.by/od_status_icon/38/200x200/47f98eb8a303d3832f0cc13dbb37331b.png"
+        },
+        "price_order_priority": "null",
+        "is_highlight_promotion_winner": false
+      },
+      {
+        "id": "13840:157990001",
+        "product_id": 157990,
+        "article": "",
+        "manufacturer_id": 3693,
+        "shop_id": 13840,
+        "schema_id": 60,
+        "position_price": {
+          "amount": "520.00",
+          "currency": "BYN",
+          "converted": {
+            "BYN": {
+              "amount": "520.00",
+              "currency": "BYN"
+            }
+          }
+        },
+        "installment_prices": {
+          "halva_price": {
+            "amount": "520.00",
+            "currency": "BYN",
+            "term": 6,
+            "amount_per_month": "86.66"
+          }
+        },
+        "cobrand_info": "null",
+        "promotions": {
+          "is_active_mastercard_free_delivery": true
+        },
+        "is_credit": false,
+        "is_cashless": false,
+        "warranty": 36,
+        "product_life_time": "null",
+        "comment": "Специализированный магазин STIHL. Профессиональная консультация, обучение пользованию, послегарантийная поддержка. Широкий выбор техники, запчастей, аксессуаров для любителей и профессионалов. Наличный и безналичный расчёт, удобная рассрочка.",
+        "producer": "Andreas Stihl AG & Co. KG Germany, Waiblingen, Badstrasse 115 D-71336",
+        "importer": "ООО ?Пилакос?, г. Минск, ул. Тимирязева, д. 121, корп. 4, офис 6",
+        "service_centers": "Сервисный центр \"Stihl\", г. Минск, ул. Игнатенко, д. 2",
+        "date_update": "2021-05-24T10:20:16+03:00",
+        "delivery": {
+          "courier": "null",
+          "pickup_point": {
+            "min_price": {
+              "amount": "0.00",
+              "currency": "BYN"
+            },
+            "time": 1,
+            "online_payment": true,
+            "cashless_payment": false,
+            "halva_payment": true,
+            "items": [
+              {
+                "id": 436,
+                "payment_types": {
+                  "online": true,
+                  "cash": true,
+                  "terminal": true,
+                  "cashless": false,
+                  "halva": true
+                },
+                "coordinates": {
+                  "lat": 53.91159,
+                  "long": 27.505837
+                },
+                "price": {
+                  "amount": "0.00",
+                  "currency": "BYN"
+                },
+                "time": 1
+              }
+            ]
+          }
+        },
+        "cart_available": true,
+        "stock_status": {
+          "code": "in_stock",
+          "text": "На складе",
+          "comment": "Товар на складе в достаточном количестве",
+          "importers": []
+        },
+        "product_url": "https://catalog.api.onliner.by/products/ms180",
+        "shop_url": "https://shop.api.onliner.by/shops/13840",
+        "shop_full_info_url": "https://shop.api.onliner.by/shops/13840?include=full",
+        "schema_url": "https://catalog.api.onliner.by/schemas/chainsaw",
+        "od_status": {
+          "title": "Официальный дилер",
+          "description": "",
+          "icon": "https://content.onliner.by/od_status_icon/38/200x200/47f98eb8a303d3832f0cc13dbb37331b.png"
+        },
+        "price_order_priority": "null",
+        "is_highlight_promotion_winner": false
+      },
+      {
+        "id": "17174:157990001",
+        "product_id": 157990,
+        "article": "",
+        "manufacturer_id": 3693,
+        "shop_id": 17174,
+        "schema_id": 60,
+        "position_price": {
+          "amount": "520.00",
+          "currency": "BYN",
+          "converted": {
+            "BYN": {
+              "amount": "520.00",
+              "currency": "BYN"
+            }
+          }
+        },
+        "installment_prices": {
+          "halva_price": {
+            "amount": "520.00",
+            "currency": "BYN",
+            "term": 6,
+            "amount_per_month": "86.66"
+          }
+        },
+        "cobrand_info": "null",
+        "promotions": {
+          "is_active_mastercard_free_delivery": true
+        },
+        "is_credit": false,
+        "is_cashless": false,
+        "warranty": 36,
+        "product_life_time": "null",
+        "comment": "Специализированный магазин STIHL. Профессиональная консультация, обучение пользованию, послегарантийная поддержка. Широкий выбор техники, запчастей, аксессуаров для любителей и профессионалов. Наличный и безналичный расчёт, удобная рассрочка.",
+        "producer": "Andreas Stihl AG & Co. KG Germany, Waiblingen, Badstrasse 115 D-71336",
+        "importer": "ООО ?Пилакос?, г. Минск, ул. Тимирязева, д. 121, корп. 4, офис 6",
+        "service_centers": "Сервисный центр \"Stihl\", г. Минск, ул. Игнатенко, д. 2",
+        "date_update": "2021-05-22T10:09:22+03:00",
+        "delivery": {
+          "courier": "null",
+          "pickup_point": {
+            "min_price": {
+              "amount": "0.00",
+              "currency": "BYN"
+            },
+            "time": 1,
+            "online_payment": true,
+            "cashless_payment": false,
+            "halva_payment": true,
+            "items": [
+              {
+                "id": 575,
+                "payment_types": {
+                  "online": true,
+                  "cash": true,
+                  "terminal": true,
+                  "cashless": false,
+                  "halva": true
+                },
+                "coordinates": {
+                  "lat": 53.908326,
+                  "long": 27.426016
+                },
+                "price": {
+                  "amount": "0.00",
+                  "currency": "BYN"
+                },
+                "time": 1
+              }
+            ]
+          }
+        },
+        "cart_available": true,
+        "stock_status": "null",
+        "product_url": "https://catalog.api.onliner.by/products/ms180",
+        "shop_url": "https://shop.api.onliner.by/shops/17174",
+        "shop_full_info_url": "https://shop.api.onliner.by/shops/17174?include=full",
+        "schema_url": "https://catalog.api.onliner.by/schemas/chainsaw",
+        "od_status": {
+          "title": "Официальный дилер",
+          "description": "",
+          "icon": "https://content.onliner.by/od_status_icon/38/200x200/47f98eb8a303d3832f0cc13dbb37331b.png"
+        },
+        "price_order_priority": "null",
+        "is_highlight_promotion_winner": false
+      }
+    ]
+  },
+  "shops": {
+    "1794": {
+      "id": 1794,
+      "url": "https://shop.api.onliner.by/shops/1794",
+      "full_info_url": "https://shop.api.onliner.by/shops/1794?include=full",
+      "html_url": "https://1794.shop.onliner.by",
+      "title": "bes@shop.by",
+      "logo": "https://content.onliner.by/b2b/1794/logotype/5bcdb42075db1ad23c8cc2b7fbc2ad1d.jpeg",
+      "cart_available": true,
+      "is_new_shop": false,
+      "reviews": {
+        "rating": 5,
+        "count": 38,
+        "url": "https://review.api.onliner.by/catalog/shops/1794/reviews"
+      },
+      "schema_phones": [],
+      "addresses": [
+        {
+          "town": {
+            "id": 1,
+            "key": "minsk",
+            "title": "Минск",
+            "prepositional_case": "Минске"
+          },
+          "address": "Магазин: \"Удачная техника\":  г.Минск, ул. Индустриальная 5 (вход с улицы Аранская, остановка транспорта \"Минскэнерго\"",
+          "email": "",
+          "skype": "",
+          "viber": "",
+          "telegram": "",
+          "whats_app": "",
+          "phones": [],
+          "work_time": {
+            "monday": {
+              "from": "10:00+03:00",
+              "till": "19:00+03:00"
+            },
+            "tuesday": {
+              "from": "10:00+03:00",
+              "till": "19:00+03:00"
+            },
+            "wednesday": {
+              "from": "10:00+03:00",
+              "till": "19:00+03:00"
+            },
+            "thursday": {
+              "from": "10:00+03:00",
+              "till": "19:00+03:00"
+            },
+            "friday": {
+              "from": "10:00+03:00",
+              "till": "19:00+03:00"
+            },
+            "saturday": {
+              "from": "10:00+03:00",
+              "till": "15:00+03:00"
+            },
+            "sunday": {
+              "holiday": "holiday"
+            }
+          }
+        }
+      ]
+    },
+    "5722": {
+      "id": 5722,
+      "url": "https://shop.api.onliner.by/shops/5722",
+      "full_info_url": "https://shop.api.onliner.by/shops/5722?include=full",
+      "html_url": "https://5722.shop.onliner.by",
+      "title": "Механизатор",
+      "logo": "https://content.onliner.by/b2b/5722/logotype/0c6025b6aa1724e1e7bae526c556f176.jpg",
+      "cart_available": true,
+      "is_new_shop": false,
+      "reviews": {
+        "rating": 0,
+        "count": 11,
+        "url": "https://review.api.onliner.by/catalog/shops/5722/reviews"
+      },
+      "schema_phones": [],
+      "addresses": [
+        {
+          "town": {
+            "id": 1,
+            "key": "minsk",
+            "title": "Минск",
+            "prepositional_case": "Минске"
+          },
+          "address": "1) г.Минск  пр-т Дзержинского,78;  2) г.Минск ул.Кальварийская,25; 3) г.Минск ул.Казинца,11А",
+          "email": "",
+          "skype": "",
+          "viber": "",
+          "telegram": "",
+          "whats_app": "",
+          "phones": [],
+          "work_time": {
+            "monday": {
+              "from": "09:00+03:00",
+              "till": "19:00+03:00"
+            },
+            "tuesday": {
+              "from": "09:00+03:00",
+              "till": "19:00+03:00"
+            },
+            "wednesday": {
+              "from": "09:00+03:00",
+              "till": "19:00+03:00"
+            },
+            "thursday": {
+              "from": "09:00+03:00",
+              "till": "19:00+03:00"
+            },
+            "friday": {
+              "from": "09:00+03:00",
+              "till": "19:00+03:00"
+            },
+            "saturday": {
+              "from": "09:00+03:00",
+              "till": "17:00+03:00"
+            },
+            "sunday": {
+              "holiday": "holiday"
+            }
+          }
+        }
+      ]
+    },
+    "10418": {
+      "id": 10418,
+      "url": "https://shop.api.onliner.by/shops/10418",
+      "full_info_url": "https://shop.api.onliner.by/shops/10418?include=full",
+      "html_url": "https://10418.shop.onliner.by",
+      "title": "Бензомир1",
+      "logo": "https://content.onliner.by/b2b/10418/logotype/abdfe0c6d422b24a17de374c9a518dcd.png",
+      "cart_available": true,
+      "is_new_shop": false,
+      "reviews": {
+        "rating": 5,
+        "count": 20,
+        "url": "https://review.api.onliner.by/catalog/shops/10418/reviews"
+      },
+      "schema_phones": [],
+      "addresses": [
+        {
+          "town": {
+            "id": 1,
+            "key": "minsk",
+            "title": "Минск",
+            "prepositional_case": "Минске"
+          },
+          "address": "г. Минск, Ул. Логойский тракт 19/1",
+          "email": "",
+          "skype": "",
+          "viber": "",
+          "telegram": "",
+          "whats_app": "",
+          "phones": [],
+          "work_time": {
+            "monday": {
+              "from": "10:00+03:00",
+              "till": "19:00+03:00"
+            },
+            "tuesday": {
+              "from": "10:00+03:00",
+              "till": "19:00+03:00"
+            },
+            "wednesday": {
+              "from": "10:00+03:00",
+              "till": "19:00+03:00"
+            },
+            "thursday": {
+              "from": "10:00+03:00",
+              "till": "19:00+03:00"
+            },
+            "friday": {
+              "from": "10:00+03:00",
+              "till": "19:00+03:00"
+            },
+            "saturday": {
+              "from": "10:00+03:00",
+              "till": "14:00+03:00"
+            },
+            "sunday": {
+              "holiday": "holiday"
+            }
+          }
+        }
+      ]
+    },
+    "13722": {
+      "id": 13722,
+      "url": "https://shop.api.onliner.by/shops/13722",
+      "full_info_url": "https://shop.api.onliner.by/shops/13722?include=full",
+      "html_url": "https://13722.shop.onliner.by",
+      "title": "Бензомир",
+      "logo": "https://content.onliner.by/b2b/13722/logotype/6e3cfc22ec6bec4174a93fd3f33299ce.png",
+      "cart_available": true,
+      "is_new_shop": false,
+      "reviews": {
+        "rating": 5,
+        "count": 29,
+        "url": "https://review.api.onliner.by/catalog/shops/13722/reviews"
+      },
+      "schema_phones": [],
+      "addresses": [
+        {
+          "town": {
+            "id": 1,
+            "key": "minsk",
+            "title": "Минск",
+            "prepositional_case": "Минске"
+          },
+          "address": "г. Минск, Ул. Яна Чечота, 7",
+          "email": "",
+          "skype": "",
+          "viber": "",
+          "telegram": "",
+          "whats_app": "",
+          "phones": [],
+          "work_time": {
+            "monday": {
+              "from": "10:00+03:00",
+              "till": "19:00+03:00"
+            },
+            "tuesday": {
+              "from": "10:00+03:00",
+              "till": "19:00+03:00"
+            },
+            "wednesday": {
+              "from": "10:00+03:00",
+              "till": "19:00+03:00"
+            },
+            "thursday": {
+              "from": "10:00+03:00",
+              "till": "19:00+03:00"
+            },
+            "friday": {
+              "from": "10:00+03:00",
+              "till": "19:00+03:00"
+            },
+            "saturday": {
+              "from": "10:00+03:00",
+              "till": "14:00+03:00"
+            },
+            "sunday": {
+              "holiday": "holiday"
+            }
+          }
+        }
+      ]
+    },
+    "13840": {
+      "id": 13840,
+      "url": "https://shop.api.onliner.by/shops/13840",
+      "full_info_url": "https://shop.api.onliner.by/shops/13840?include=full",
+      "html_url": "https://13840.shop.onliner.by",
+      "title": "Stihl Пушкинская",
+      "logo": "https://content.onliner.by/b2b/13840/logotype/10969596fae1a99927728e33bce91ba7.png",
+      "cart_available": true,
+      "is_new_shop": false,
+      "reviews": {
+        "rating": 5,
+        "count": 28,
+        "url": "https://review.api.onliner.by/catalog/shops/13840/reviews"
+      },
+      "schema_phones": [],
+      "addresses": [
+        {
+          "town": {
+            "id": 1,
+            "key": "minsk",
+            "title": "Минск",
+            "prepositional_case": "Минске"
+          },
+          "address": "г. Минск, ул. Ольшевского, 1А",
+          "email": "",
+          "skype": "",
+          "viber": "",
+          "telegram": "",
+          "whats_app": "",
+          "phones": [],
+          "work_time": {
+            "monday": {
+              "from": "10:00+03:00",
+              "till": "19:00+03:00"
+            },
+            "tuesday": {
+              "from": "10:00+03:00",
+              "till": "19:00+03:00"
+            },
+            "wednesday": {
+              "from": "10:00+03:00",
+              "till": "19:00+03:00"
+            },
+            "thursday": {
+              "from": "10:00+03:00",
+              "till": "19:00+03:00"
+            },
+            "friday": {
+              "from": "10:00+03:00",
+              "till": "19:00+03:00"
+            },
+            "saturday": {
+              "from": "10:00+03:00",
+              "till": "14:00+03:00"
+            },
+            "sunday": {
+              "holiday": "holiday"
+            }
+          }
+        }
+      ]
+    },
+    "17174": {
+      "id": 17174,
+      "url": "https://shop.api.onliner.by/shops/17174",
+      "full_info_url": "https://shop.api.onliner.by/shops/17174?include=full",
+      "html_url": "https://17174.shop.onliner.by",
+      "title": "STIHL Каменная горка",
+      "logo": "https://content.onliner.by/b2b/17174/logotype/633976a292f91899f238d6cf84a402e4.png",
+      "cart_available": true,
+      "is_new_shop": false,
+      "reviews": {
+        "rating": 5,
+        "count": 6,
+        "url": "https://review.api.onliner.by/catalog/shops/17174/reviews"
+      },
+      "schema_phones": [],
+      "addresses": [
+        {
+          "town": {
+            "id": 1,
+            "key": "minsk",
+            "title": "Минск",
+            "prepositional_case": "Минске"
+          },
+          "address": "Минск",
+          "email": "",
+          "skype": "",
+          "viber": "",
+          "telegram": "",
+          "whats_app": "",
+          "phones": [],
+          "work_time": {
+            "monday": {
+              "from": "10:00+03:00",
+              "till": "19:00+03:00"
+            },
+            "tuesday": {
+              "from": "10:00+03:00",
+              "till": "19:00+03:00"
+            },
+            "wednesday": {
+              "from": "10:00+03:00",
+              "till": "19:00+03:00"
+            },
+            "thursday": {
+              "from": "10:00+03:00",
+              "till": "19:00+03:00"
+            },
+            "friday": {
+              "from": "10:00+03:00",
+              "till": "19:00+03:00"
+            },
+            "saturday": {
+              "from": "10:00+03:00",
+              "till": "14:00+03:00"
+            },
+            "sunday": {
+              "holiday": "holiday"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "towns": [
+    {
+      "id": 1,
+      "key": "minsk",
+      "title": "Минск",
+      "prepositional_case": "Минске"
+    }
+  ],
+  "positions_count_by_town": {
+    "minsk": 6
+  }
+}

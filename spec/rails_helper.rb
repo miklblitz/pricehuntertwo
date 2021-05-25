@@ -22,7 +22,7 @@ require 'capybara/rails'
 # directory. Alternatively, in the individual `*_spec.rb` files, manually
 # require only the support files necessary.
 #
-# Dir[Rails.root.join('spec', 'support', '**', '*.rb')].sort.each { |f| require f }
+Dir[Rails.root.join('spec', 'support', '**', '*.rb')].sort.each { |f| require f }
 
 # Checks for pending migrations and applies them before tests are run.
 # If you are not using ActiveRecord, you can remove these lines.
@@ -33,21 +33,6 @@ rescue ActiveRecord::PendingMigrationError => e
   exit 1
 end
 RSpec.configure do |config|
-
-  # config.before(:each) do
-  #   search_response = {
-  #       :status => 'success',
-  #       :data => []
-  #   }
-  #   stub_request(:get, "https://catalog.onliner.by/sdapi/catalog.api/search/products?page=1&query=%D0%B1%D0%B5%D0%BD%D0%B7%D0%BE%D0%BF%D0%B8%D0%BB%D0%B0").
-  #       with(
-  #           headers: {
-  #               'Accept'=>'*/*',
-  #               'Accept-Encoding'=>'gzip;q=1.0,deflate;q=0.6,identity;q=0.3',
-  #               'User-Agent'=>'Faraday v1.4.1'
-  #           }).
-  #       to_return(status: 200, body: search_response.to_json, headers: {})
-  # end
 
   # Remove this line if you're not using ActiveRecord or ActiveRecord fixtures
   config.fixture_path = "#{::Rails.root}/spec/fixtures"
@@ -98,5 +83,7 @@ RSpec.configure do |config|
     DatabaseCleaner.clean
   end
 
+  config.include Devise::Test::ControllerHelpers, type: :controller
+  config.extend ControllerMacros, :type => :controller
 
 end

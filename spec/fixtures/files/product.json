@@ -1,0 +1,94 @@
+{
+  "id": 157990,
+  "key": "ms180",
+  "name": "MS 180 14\"",
+  "full_name": "STIHL MS 180 14\"",
+  "name_prefix": "Бензопила",
+  "extended_name": "Бензопила STIHL MS 180 14\"",
+  "status": "active",
+  "parent_key": "",
+  "images": {
+    "header": "//content2.onliner.by/catalog/device/header/1b14bd9f4f435849600c0c51d449f660.jpeg",
+    "icon": "//content2.onliner.by/catalog/device/icon/ef264604106d025b953cfcae365e15d5.jpg"
+  },
+  "image_size": [],
+  "description": "бензиновая, бытовая, 1.5 кВт, 31.8 см³, шаг цепи 3/8 дюйма, длина шины 35 см, \r\nантивибрация, 3.9 кг",
+  "micro_description": "1.5 кВт",
+  "html_url": "https://catalog.onliner.by/chainsaw/stihl/ms180",
+  "reviews": {
+    "rating": 45,
+    "count": 59,
+    "html_url": "https://catalog.onliner.by/chainsaw/stihl/ms180/reviews",
+    "url": "https://catalog.api.onliner.by/products/ms180/reviews"
+  },
+  "review_url": "null",
+  "forum": {
+    "topic_id": 1674226,
+    "topic_url": "https://forum.onliner.by/viewtopic.php?t=1674226",
+    "post_url": "https://forum.onliner.by/posting.php?mode=newtopic&f=274&device=ms180"
+  },
+  "sale": {
+    "is_on_sale": false,
+    "discount": 0,
+    "min_prices_median": {
+      "amount": "545.00",
+      "currency": "BYN"
+    },
+    "subscribed": false,
+    "can_be_subscribed": true
+  },
+  "certification_required": true,
+  "color_code": "null",
+  "url": "https://catalog.api.onliner.by/products/ms180",
+  "second": {
+    "offers_count": 0,
+    "min_price": "null",
+    "max_price": "null"
+  },
+  "stickers": "null",
+  "max_cobrand_cashback": "null",
+  "prices": {
+    "min": "null",
+    "price_min": {
+      "amount": "520.00",
+      "currency": "BYN",
+      "converted": {
+        "BYN": {
+          "amount": "520.00",
+          "currency": "BYN"
+        },
+        "BYR": {
+          "amount": "",
+          "currency": "BYR"
+        }
+      }
+    },
+    "max": "null",
+    "price_max": {
+      "amount": "520.00",
+      "currency": "BYN",
+      "converted": {
+        "BYN": {
+          "amount": "520.00",
+          "currency": "BYN"
+        },
+        "BYR": {
+          "amount": "",
+          "currency": "BYR"
+        }
+      }
+    },
+    "currency_sign": "null",
+    "offers": {
+      "count": 6
+    },
+    "html_url": "https://catalog.onliner.by/chainsaw/stihl/ms180/prices",
+    "url": "https://shop.api.onliner.by/products/ms180/positions"
+  },
+  "manufacturer": {
+    "key": "stihl",
+    "name": "STIHL",
+    "legal_name": "АНДРЕАС СТИХЛ АГ & Цо. КГ",
+    "legal_address": "Бадстрассе 115, Д-71336 Вайблинген, Германия"
+  }
+}

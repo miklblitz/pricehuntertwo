@@ -18,7 +18,7 @@ class GoodsController < ApplicationController
       @data = OpenStruct.new
       @data.data = response["body"]["products"]
       @data.current_page = params[:page]
-      @data.total_pages = response["body"]["page"]["last"]
+      @data.total_pages = response.dig("body", "page", "last")
     end
   end
 
@@ -27,8 +27,9 @@ class GoodsController < ApplicationController
     response = Onliner::Proxy.new.product(params[:id])
     response_positions = Onliner::Proxy.new.positions(params[:id], { town: 'all' })
 
-    @data = response["body"]
-    @data_positions = response_positions.body
+
+    @data = response["body"] if response["body"].present?
+    @data_positions = response_positions["body"] if response_positions["body"].present?
   end
 
   # имитация для крона
