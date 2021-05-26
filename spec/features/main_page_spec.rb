@@ -76,7 +76,6 @@ feature 'Visit Main page' do
     # не отрабатывает ?
     # save_page
     # save_and_open_page
-    
     visit '/'
     fill_in "query", :with => 'бензопила'
     click_button "commit"
