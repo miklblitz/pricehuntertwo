@@ -14,9 +14,9 @@ class FavoritesController < ApplicationController
         response["body"]["favorite_id"] = favorite.id
         response["body"]["favorite_checked"] = favorite.is_notify
         response_prices = Onliner::ProxyApi.new.prices_history(favorite.goods_key)
-        myhash = Hash.new
-        response_prices[:body]["chart_data"]["items"].map { |e| myhash[e["date"]] = e["price"] }
-        response["body"]["history_price"] = myhash
+        history_hash = Hash.new
+        response_prices[:body]["chart_data"]["items"].map { |e| history_hash[e["date"]] = e["price"] }
+        response["body"]["history_price"] = history_hash
         @goods << response["body"]
       end
     end
@@ -38,7 +38,6 @@ class FavoritesController < ApplicationController
   # PATCH/PUT /favorites/1 or /favorites/1.json
   def update
     if @favorite.update(favorite_params)
-      ActionCable.server.broadcast "room_channel", content: DateTime.now
       render json: @favorite, status: :ok
     else
       render json: @favorite.errors, status: :unprocessable_entity

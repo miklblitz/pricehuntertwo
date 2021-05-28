@@ -9,6 +9,6 @@ RSpec.describe 'Visit Favorite Goods page' do
   end
 
   context 'with auth' do
-    
+
   end
 end

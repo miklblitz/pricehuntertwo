@@ -61,7 +61,12 @@
                 </td>
                 <td style="vertical-align: middle" width="300px">
                   <div>
-                  <%= "#{product["prices"]["price_min"]["amount"]} #{product["prices"]["price_min"]["currency"]}"  if product.dig("prices","price_min" )%> - <%= "#{product["prices"]["price_max"]["amount"]}  #{product["prices"]["price_max"]["currency"]}"  if product.dig("prices","price_max" )%>
+                  <%=
+                    "#{product["prices"]["price_min"]["amount"]}
+                    #{product["prices"]["price_min"]["currency"]}" if product.dig("prices","price_min" ) %>
+                      -
+                      <%= "#{product["prices"]["price_max"]["amount"]}
+                          #{product["prices"]["price_max"]["currency"]}" if product.dig("prices","price_max" )%>
                   </div>
                 </td>
               </tr>
@@ -87,8 +92,6 @@
   $(document).ready(function() {
     $('.favorite').click(function() {
         const key =  $(this).attr("value");
-
-        console.log('XXXX ', $(this).data("favorite-id"));
 
         if(!$(this).is(':checked')) {
             $.ajax({
